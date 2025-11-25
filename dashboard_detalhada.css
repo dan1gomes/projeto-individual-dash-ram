@@ -144,5 +144,30 @@ body {
 
 #componente-exibe {
     margin-left: 0%;
-    width: 12vw;
+    width: 15vw;
+}
+
+#componente-exibe :hover {
+    background-color: #e8eaf6;
+    color: #000266;
+    transform: translateX(5px);
+}
+
+details summary {
+  cursor: pointer;
+  padding: 0.5rem 2rem;
+  list-style: none;
+  color: #5a61a1;
+  font-weight: 500;
+}
+
+details nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 1rem;
+  font-size: 90%;
+}
+
+details nav a:hover {
+  color: #000266;
 }
