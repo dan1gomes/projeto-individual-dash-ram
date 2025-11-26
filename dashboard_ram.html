@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dashboard Memória RAM | Infrawatch</title>
-    <link rel="stylesheet" href="dashboard_detalhada.css">
+    <link rel="stylesheet" href="dashboard_memoria_ram.css">
     <link rel="icon" href="assets/logo-infrawatch.png">
 </head>
 <body>
@@ -64,20 +64,32 @@
 
     <div class="kpis">
         <div class="kpi">
-            <p>Porcentagem de uso máxima/média: </p>
+            <p>Porcentagem de uso máxima: <br><br><b>82%</b></p>
+            
         </div>
         <div class="kpi">
-            <p>Velocidade de leitura máxima/média: </p>
+            <p>Porcentagem de uso máxima: <br><br><b>79%</b> </p>
         </div>
         <div class="kpi">
-            <p>Velocidade de leitura máxima/média: </p>
+            <p>Utilização em gigabytes máxima: <br><br><b>1,5 GB</b></p>
         </div>
         <div class="kpi">
-            <p>Teste </p>
+            <p>Utilização em gigabytes média: <br><br><b>1,2 GB</b></p>
         </div>
-        <div class="kpi">
-            <p>Alertas: </p>
-        </div>
+        <article class="kpi">
+            <img class="icons" src="assets/alarme.png">
+            <div id="conteudo-kpi">
+              <p>Tempo: últimas 24 horas</p>
+              <h2>Alertas Totais: <span id="qtd_ultimos_alertas">~</span></h2>
+            </div>
+          </article> 
+    </div>
+
+    <div class="graficos">
+        <div id="grafico1">histograma</div>
+        <div id="grafico2">histograma</div>
+        <div id="grafico3">linha</div>
+        <div id="grafico4">barra</div>
     </div>
 
     

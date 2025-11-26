@@ -29,7 +29,7 @@ body {
 }
 
 .sidebar-logo img {
-    width: 80%;
+    width: 90%;
     max-width: 130px;
     height: auto;
 }
@@ -182,4 +182,69 @@ details nav a:hover {
     justify-content: center;
     font-size: small;
 }
+
+.kpi b {
+    font-size: x-large;
+}
+
+#conteudo-kpi {
+    margin-left: 7px;
+}
+
+.icons {
+    margin-top: 10%;
+    height:45%;
+}
+
+.graficos {
+    margin-top: 3%;
+    height: 62vh;
+    width: 62vw;
+    margin-right: 19%;
+    display: grid;
+    box-sizing: border-box;
+    grid-template-columns: repeat(2, 1fr); 
+    grid-template-rows: 1fr 1fr; 
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding: 5px;
+}
+
+#grafico1 {
+    height:100%;
+    width: 100%;
+    border: solid 2px black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#grafico2 {
+    height:100%;
+    width: 100%;
+    border: solid 2px black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#grafico3 {
+    height:100%;
+    width: 100%;
+    border: solid 2px black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#grafico4 {
+    height:100%;
+    width: 100%;
+    border: solid 2px black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 
